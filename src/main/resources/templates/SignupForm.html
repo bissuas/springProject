@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring Demo Project</title>
+</head>
+<body>
+	<h1>Spring Demo Project</h1>
+	<hr>
+	<h2>User Signup Form</h2>
+	<hr>
+	<form action="/user/signup" method="post">
+	<table>
+	<tr><td>Usermame:</td><td><input type="text" name="username"></td></tr>
+	<tr><td>Password:</td><td><input type="password" name="password"></td></tr>
+	<tr><td>FirstName:</td><td><input type="text" name="fname"></td></tr>
+	<tr><td>LastName:</td><td><input type="text" name="lname"></td></tr>
+	<tr><td><input type="submit" value="Signup"></td><td><pre><a href="/">back</a></pre></td></tr>
+	</table>
+    </form>
+
+</body>
+</html>
