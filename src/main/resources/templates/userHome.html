@@ -2,15 +2,25 @@
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
 <meta charset="ISO-8859-1">
-<title>Spring Demo Project</title>
+<title>Home</title>
+<style>
+body{
+    height: 80vh;
+} 
+.container{
+    height: 80%;
+}
+</style>
 </head>
 <body>
-	<h1> Spring Demo Project</h1>
-	<hr>
-	<h3>Welcome [[${u}]] !!!</h3>
-	
-	<hr>
-	<td><pre><a href="/">back</a></pre></td></tr>
+
+<th:block th:insert="Header.html"]></th:block>
+<div class="container d-flex align-items-center justify-content-center text-center">
+  <div>
+    <h2>Simple Elegant Beautiful</h2><br>
+    <p>A simple Student Management System that allows to create student and teacher with added user signup and login functionalities.</p>
+  </div>
+</div>
 
 </body>
 </html>

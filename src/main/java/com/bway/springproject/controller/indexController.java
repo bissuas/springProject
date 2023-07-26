@@ -1,4 +1,4 @@
-package com.bway.springproject.controller;
+   package com.bway.springproject.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +8,6 @@ public class indexController {
 	
 	@GetMapping("/")
 	public String getIndex() {
-		return "index";
+		return "LoginForm";
 	}
 }
